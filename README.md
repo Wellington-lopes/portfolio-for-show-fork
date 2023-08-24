@@ -573,6 +573,7 @@ Feel free to check the [Issues page](https://github.com/seniorcoder72/seniorcode
 ## Contributors ✨
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
@@ -580,6 +581,18 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="http://JayantGoel001.github.io"><img src="https://avatars.githubusercontent.com/u/54479676?v=4?s=100" width="100px;" alt="Jayant Goel"/><br /><sub><b>Jayant Goel</b></sub></a><br /><a href="https://github.com/seniorcoder72/portfolio-for-show-fork/commits?author=JayantGoel001" title="Code">💻</a> <a href="#ideas-JayantGoel001" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/seniorcoder72/portfolio-for-show-fork/commits?author=JayantGoel001" title="Tests">⚠️</a> <a href="#maintenance-JayantGoel001" title="Maintenance">🚧</a> <a href="https://github.com/seniorcoder72/portfolio-for-show-fork/commits?author=JayantGoel001" title="Documentation">📖</a> <a href="#design-JayantGoel001" title="Design">🎨</a> <a href="https://github.com/seniorcoder72/portfolio-for-show-fork/pulls?q=is%3Apr+reviewed-by%3AJayantGoel001" title="Reviewed Pull Requests">👀</a> <a href="#content-JayantGoel001" title="Content">🖋</a> <a href="#a11y-JayantGoel001" title="Accessibility">️️️️♿️</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/in/anchal-p-908643b6/"><img src="https://avatars.githubusercontent.com/u/73632448?v=4?s=100" width="100px;" alt="Anchal Pandey"/><br /><sub><b>Anchal Pandey</b></sub></a><br /><a href="https://github.com/seniorcoder72/portfolio-for-show-fork/issues?q=author%3Acode1511" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://emmadawson.dev"><img src="https://avatars.githubusercontent.com/u/57045550?v=4?s=100" width="100px;" alt="Emma Dawson"/><br /><sub><b>Emma Dawson</b></sub></a><br /><a href="https://github.com/seniorcoder72/portfolio-for-show-fork/issues?q=author%3Aemmalearnscode" title="Bug reports">🐛</a> <a href="#ideas-emmalearnscode" title="Ideas, Planning, & Feedback">🤔</a> <a href="#a11y-emmalearnscode" title="Accessibility">️️️️♿️</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/NarpatAanjana"><img src="https://avatars.githubusercontent.com/u/86047565?v=4?s=100" width="100px;" alt="Narpat Aanjana"/><br /><sub><b>Narpat Aanjana</b></sub></a><br /><a href="https://github.com/seniorcoder72/portfolio-for-show-fork/issues?q=author%3ANarpatAanjana" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/seniorcoder72"><img src="https://avatars.githubusercontent.com/u/132613676?v=4?s=100" width="100px;" alt="Senior Developer"/><br /><sub><b>Senior Developer</b></sub></a><br /><a href="https://github.com/seniorcoder72/portfolio-for-show-fork/commits?author=seniorcoder72" title="Code">💻</a> <a href="#content-seniorcoder72" title="Content">🖋</a> <a href="https://github.com/seniorcoder72/portfolio-for-show-fork/commits?author=seniorcoder72" title="Documentation">📖</a> <a href="#data-seniorcoder72" title="Data">🔣</a> <a href="#example-seniorcoder72" title="Examples">💡</a> <a href="#ideas-seniorcoder72" title="Ideas, Planning, & Feedback">🤔</a> <a href="#projectManagement-seniorcoder72" title="Project Management">📆</a> <a href="https://github.com/seniorcoder72/portfolio-for-show-fork/pulls?q=is%3Apr+reviewed-by%3Aseniorcoder72" title="Reviewed Pull Requests">👀</a> <a href="#tool-seniorcoder72" title="Tools">🔧</a> <a href="#tutorial-seniorcoder72" title="Tutorials">✅</a> <a href="#video-seniorcoder72" title="Videos">📹</a></td>
+    </tr>
+  </tbody>
+</table>
+
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 
