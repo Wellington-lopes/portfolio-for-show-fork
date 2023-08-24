@@ -50,11 +50,30 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "seniorcoder72",
+      "name": "Senior Developer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/132613676?v=4",
+      "profile": "https://github.com/seniorcoder72",
+      "contributions": [
+        "code",
+        "content",
+        "doc",
+        "data",
+        "example",
+        "ideas",
+        "projectManagement",
+        "review",
+        "tool",
+        "tutorial",
+        "video"
+      ]
     }
   ],
   "contributorsPerLine": 7,
-  "projectName": "JayantGoel001.github.io",
-  "projectOwner": "JayantGoel001",
+  "projectName": "portfolio-for-show-fork",
+  "projectOwner": "seniorcoder72",
   "repoType": "github",
   "repoHost": "https://github.com",
   "skipCi": true,
