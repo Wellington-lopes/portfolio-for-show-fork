@@ -69,7 +69,6 @@
 - [Folder Structure :open\_file\_folder:](#folder-structure-open_file_folder)
 - [Search engine optimization(SEO) :spider:](#search-engine-optimizationseo-spider)
 - [PageSpeed Insights](#pagespeed-insights)
-- [Creator / Maintainer :man\_technologist:](#creator--maintainer-man_technologist)
 - [🤝 Contributing](#-contributing)
 - [Contributors ✨](#contributors-)
 - [📝 License](#-license)
@@ -558,24 +557,6 @@ PageSpeed Insights (PSI) reports on the performance of a page on both mobile and
 
 	[![PageSpeed Insight Mobile](src/screenshots/PageSpeedInsight%20Mobile.png)](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fseniorcoder72.github.io%2F&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa)
 
-
-## Creator / Maintainer :man_technologist:
-
-👤 Jayant Goel ([seniorcoder72](https://github.com/seniorcoder72))
-
-If you have any questions, comments, or concerns, feel free to contact me below.
-
-<p align="left">
-	<a href="https://www.linkedin.com/in/seniorcoder72"> 
-    	<img alt="Connect via LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />
-  	</a>
-	<a href="mailto:jgoel92@gmail.com"> 
-		<img alt="Connect via Email" src="https://img.shields.io/badge/Gmail-c14438?style=flat&logo=Gmail&logoColor=white" />
-	</a>
-	<a href="https://www.twitter.com/seniorcoder72"> 
-    	<img alt="Connect via Twitter" src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white" />
-  	</a>
-</p>
 
 This project was created for educational purposes and for personal use. Feel free to take inspiration.
 
