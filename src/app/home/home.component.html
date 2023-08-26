@@ -24,9 +24,9 @@
                 <div class="row justify-content-center">
                     <div *ngFor="let contact of contactData" class="col-lg-3 col-md-4 mt-4 pt-2 pointer wow slideIn{{contact['animationClass']}}" data-wow-delay=0.1s>
                        <ng-template #title><strong> <em>{{contact['title']}}</em> </strong></ng-template>
-                       <div class="text-center" placement="bottom" [ngbTooltip]="title">
-                          <i style="font-size: 80px;" class="{{contact['icon']}} text-custom h3 mb-4"></i>
-                          <h3 *ngFor="let links of contact['links']" class="mb-{{contact['links'].length-1}} font-weight-normal line-height-normal">
+                       <div *ngFor="let links of contact['links']" class="text-center" placement="bottom" [ngbTooltip]="title">
+                          <a href="{{links['title']}}"><i style="font-size: 80px;" class="{{contact['icon']}} text-custom h3 mb-4"></i></a>
+                          <h3 class="mb-{{contact['links'].length-1}} font-weight-normal line-height-normal">
                            <a rel="noreferrer" style="font-size: 16px; color:white;" aria-label="contact(opens in a new tab)" target="_blank" class="contact-links" href="{{links['type']}}{{links['title']}}">
                               {{links['title']}}
                            </a></h3>
