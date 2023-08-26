@@ -1,1 +1,37 @@
-<section class="bg-home" id="home"><div class="bg-overlay"></div><div id="particles-js"></div><div class="home-center"><div class="home-desc-center"><div class="container"><div class="row justify-content-center"><div class="col-lg-10 mt-5"><div class="home-title text-center"><div class="wow fadeInDownBig text-white-50 mb-3 font-weight-normal h5" data-wow-delay="0.5s">Senior Developper</div><h2 class="display-3"><div id="typed-strings"><p *ngFor="let typedElement of homeData['typedElement']">{{typedElement}} </p></div><span id="element" class="text-white"></span></h2><h3 class="wow fadeInUpBig text-light mx-auto para-desc" data-wow-delay="0.5s">{{homeData['introduction']}}</h3></div></div><div class="mt-4 pt-2"><ng-template #title><strong><em>Resume</em></strong></ng-template><div class="resume-button" placement="bottom" [ngbTooltip]="title"><a rel="noreferrer" aria-label="Download Resume (opens in a new tab)" target="_blank" href="https://app.enhancv.com/share/{{homeData['resumeLink']}}/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic"> Download Resume <i class="fa fa-download ml-2"></i></a></div></div></div></div></div></div></section>
+<section class="bg-home" id="home">
+    <div class="bg-overlay"></div>
+    <div id="particles-js"></div>
+    <div class="home-center">
+       <div class="home-desc-center">
+          <div class="container">
+             <div class="row justify-content-center">
+                <div class="col-lg-10 mt-5">
+                   <div class="home-title text-center">
+                      <div class="wow fadeInDownBig text-white-50 mb-3 font-weight-normal h5" data-wow-delay="0.5s">Senior Developper</div>
+                      <h2 class="display-3">
+                         <div id="typed-strings">
+                            <p *ngFor="let typedElement of homeData['typedElement']">{{typedElement}} </p>
+                         </div>
+                         <span id="element" class="text-white"></span>
+                      </h2>
+                      <h3 class="wow fadeInUpBig text-light mx-auto para-desc" data-wow-delay="0.5s">{{homeData['introduction']}}</h3>
+                   </div>
+                </div>
+                <div class="mt-4 pt-2">
+                   <ng-template #title><strong><em>Resume</em></strong></ng-template>
+                   <div class="resume-button" placement="bottom" [ngbTooltip]="title"><a rel="noreferrer" aria-label="Download Resume (opens in a new tab)" target="_blank" href="https://app.enhancv.com/share/{{homeData['resumeLink']}}/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic"> Download Resume <i class="fa fa-download ml-2"></i></a></div>
+                </div>
+                <div class="row justify-content-center">
+                    <div *ngFor="let contact of contactData" class="col-lg-3 col-md-4 mt-4 pt-2 pointer wow slideIn{{contact['animationClass']}}" data-wow-delay=0.1s>
+                       <ng-template #title><strong> <em>{{contact['title']}}</em> </strong></ng-template>
+                       <div class="text-center" placement="bottom" [ngbTooltip]="title">
+                          <i class="{{contact['icon']}} text-custom h3 mb-4"></i>
+                          <h3 *ngFor="let links of contact['links']" class="mb-{{contact['links'].length-1}} font-weight-normal line-height-normal"><a rel="noreferrer" aria-label="contact(opens in a new tab)" target="_blank" class="contact-links" href="{{links['type']}}{{links['title']}}">{{links['title']}}</a></h3>
+                       </div>
+                    </div>
+                 </div>
+             </div>
+          </div>
+       </div>
+    </div>
+ </section>
