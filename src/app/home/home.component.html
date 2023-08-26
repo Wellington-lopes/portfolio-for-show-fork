@@ -26,7 +26,10 @@
                        <ng-template #title><strong> <em>{{contact['title']}}</em> </strong></ng-template>
                        <div class="text-center" placement="bottom" [ngbTooltip]="title">
                           <i class="{{contact['icon']}} text-custom h3 mb-4"></i>
-                          <h3 *ngFor="let links of contact['links']" style="font-size: 16px; color:white;" class="mb-{{contact['links'].length-1}} font-weight-normal line-height-normal"><a rel="noreferrer" aria-label="contact(opens in a new tab)" target="_blank" class="contact-links" href="{{links['type']}}{{links['title']}}">{{links['title']}}</a></h3>
+                          <h3 *ngFor="let links of contact['links']" class="mb-{{contact['links'].length-1}} font-weight-normal line-height-normal">
+                           <a rel="noreferrer" style="font-size: 16px; color:white;" aria-label="contact(opens in a new tab)" target="_blank" class="contact-links" href="{{links['type']}}{{links['title']}}">
+                              {{links['title']}}
+                           </a></h3>
                        </div>
                     </div>
                  </div>
